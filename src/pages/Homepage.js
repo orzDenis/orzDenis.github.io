@@ -45,7 +45,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <div style={{ minHeight: "100vh", paddingTop: "2rem" }}>
       <Search
         search={() => {
           search(searchURL);
